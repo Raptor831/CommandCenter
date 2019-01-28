@@ -6,10 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "postinstall": "find node_modules/ -name '*.info' -type f -delete",
-    "build": "webpack --config webpack.config.js --mode=production && sassdoc ./sass/**/*.scss --config sassdoc.config.yml",
+    "build": "webpack --config webpack.config.js --mode=production",
     "dev": "webpack --config webpack.config.js --watch --mode=development"
   },
-  "author": "Elevated Third",
+  "author": "Raptor831",
   "license": "ISC",
   "browserslist": [
     "last 1 version",
@@ -43,7 +43,6 @@
     "postcss-safe-parser": "^4.0.1",
     "postcss-scss": "^2.0.0",
     "sass-loader": "^6.0.7",
-    "sassdoc": "^2.5.0",
     "style-loader": "^0.22.1",
     "webpack": "^4.16.5",
     "webpack-cli": "^3.1.0"
@@ -51,6 +50,7 @@
   "dependencies": {
     "babel-polyfill": "^6.26.0",
     "foundation-sites": "^6.5.0-rc.2",
+    "jquery": "^3.3.1",
     "normalize-scss": "^7.0.1",
     "svg.js": "^2.6.5"
   }
